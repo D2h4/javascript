@@ -1,0 +1,5 @@
+const harry=0
+ console.log(harry)
+ let a
+ a=45;
+console.log(a)
