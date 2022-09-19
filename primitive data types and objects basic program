@@ -1,0 +1,22 @@
+let a = null
+let b = 345
+let c = true
+let d = BigInt("567") + BigInt("4")
+let e = "aman"
+let f = Symbol("i am Aman Dhiman")
+let g
+
+console.log(a, b, c, d, e, f, g)//null 345 true 571n aman Symbol(i am Aman Dhiman) undefined
+
+console.log(typeof d)//bigint
+
+//object
+const item={
+    "harry":true,
+     "lovish":65,
+      "aman":"harry"
+}
+
+console.log(item.harry)//true
+
+console.log(item["lov"])//undefined
