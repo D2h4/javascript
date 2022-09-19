@@ -1,0 +1,25 @@
+//Q1
+let a="Aman"
+let b=5
+console.log(a+b)//Aman5
+
+//Q2
+console.log(typeof (a+b))//string
+//Q3
+const c={
+  name:"Aman",
+  section: 1,
+  isprincipal:false
+}
+//Q4
+c["name"]="harry"
+console.log(c)//{name:'harry',section:1,isprincipal:false}
+
+//Q5
+const d={
+  appreciate:"recognize the full worth of.",
+  ataraxia:"a state of freedom from emotional distrubance and anxiety",
+  yakka:"work,especially hard work"
+}
+//console.log(d.yakka)
+console.log(d['yakka'])//work,especially hard work
