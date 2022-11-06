@@ -1,0 +1,9 @@
+const obj={
+ harry:78,
+ ritika:00,
+ mushkan:90,
+ krakita:104
+}
+for(let i in obj){
+ console.log(i,':',obj[i])
+}
