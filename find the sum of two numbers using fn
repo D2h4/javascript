@@ -1,0 +1,22 @@
+//ist method----------------------------
+function marks(x,y){
+console.log("hello");
+console.log(x+y);
+}
+let a=3;
+let b=5;
+let c=7;
+marks(a,b);
+marks(b,c);
+marks(c,a);
+
+
+//2nd method--------------------------
+const sum=(a,b)=>{
+ let c=a+b
+ return c
+}
+let x=8;
+let y=7;
+let z=sum(x,y)
+console.log(z)
