@@ -1,0 +1,9 @@
+let sum=0;
+let n=prompt("whats ur number?");
+let i=1;
+while(i<=n)
+{
+  sum+=i;
+  i++;
+}
+console.log(sum);
