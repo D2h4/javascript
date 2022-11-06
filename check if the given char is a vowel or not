@@ -1,0 +1,7 @@
+let ch=prompt("enter the char?");
+
+if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+alert("given char is a vowel");
+
+else
+alert("gien char is not a vowel");
